@@ -1,0 +1,15 @@
+{
+  "name": "com.vhomic.tictaktoe",
+  "version": "1.0.0",
+  "displayName": "Tic Tak Toe",
+  "cordova": {
+    "platforms": [
+      "browser",
+      "android"
+    ]
+  },
+  "dependencies": {
+    "cordova-android": "^8.0.0",
+    "cordova-browser": "^5.0.4"
+  }
+}

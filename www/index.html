@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <title>Tic Tac Toe</title>
+        <link rel="stylesheet" href="./css/layout.css">
+    </head>
+    <body>
+		<section id="app">
+			<div id="game">
+				<h1 class="hero">Tic Tac Toe</h1>
+				<div class="overlay">
+					<div class="centered">
+						<h3 class="status">Play</h3>
+						<div class="playbtn-wrapper">
+							<div class="playbutton" type="button"></div>
+						</div>
+					</div>
+				</div>
+				<div class="grid-wrapper">
+					<h1 class="hero-faker">Tic Tac Toe</h1>
+					<div class="grid">
+						<div class="cell cell1"><span></span></div>
+						<div class="cell cell2"><span></span></div>
+						<div class="cell cell3"><span></span></div>
+						<div class="cell cell4"><span></span></div>
+						<div class="cell cell5"><span></span></div>
+						<div class="cell cell6"><span></span></div>
+						<div class="cell cell7"><span></span></div>
+						<div class="cell cell8"><span></span></div>
+						<div class="cell cell9"><span></span></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<script type="text/javascript" src="cordova.js"></script>
+		<script type="text/javascript" src="./js/core.js"></script>
+		<script type="text/javascript" src="./js/dom.js"></script>
+		<script type="text/javascript" src="./js/app.js"></script>
+		<script type="text/javascript" src="./js/index.js"></script>
+        <script>
+            app.init();
+        </script>
+    </body>
+</html>

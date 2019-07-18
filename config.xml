@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.vhomic.tictaktoe" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Tic Tak Toe</name>
+    <description>
+        A marvelous newcomer.
+    </description>
+    <author>
+        v.homic
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <engine name="browser" spec="^5.0.4" />
+    <engine name="android" spec="^8.0.0" />
+</widget>
